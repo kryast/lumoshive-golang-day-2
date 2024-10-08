@@ -1,18 +1,24 @@
 @font-face {
   font-family: "a";
   src: url("asset/Poppins-Bold.ttf") format("truetype");
-
+}
+@font-face {
   font-family: "b";
   src: url("asset/Poppins-Regular.ttf") format("truetype");
 }
 
+/* CSS Reset  */
 * {
   margin: 0;
   padding: 0;
 }
+/* End CSS Reset  */
+
+/* Logo dan Navbar Section  */
 
 header {
-  width: 60%;
+  /* hilangkan komen jika ingin navbar di tengah */
+  /* width: 60%; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,6 +36,9 @@ nav ul li {
   padding: 0 40px;
 }
 
+/* End Logo dan Navbar Section  */
+
+/* Container Text dan Image Section  */
 .hero-section {
   display: flex;
   justify-content: space-between;
@@ -38,26 +47,36 @@ nav ul li {
   box-sizing: border-box;
   margin-top: 100px;
 }
+/* End Container Text dan Image Section  */
 
+/* Image section  */
 .hero-section img {
   width: 517px;
   height: 559px;
+  margin-top: -50px;
 }
+/* End Image Section  */
 
-.hero-text {
-  width: 600px;
+/* Text Section  */
+.hero-title {
+  width: 650px;
   height: auto;
 }
 
 .hero-section h2 {
   font-family: "a";
-  font-size: 60px;
+  font-size: 55px;
   margin-bottom: 40px;
+}
+
+.hero-text {
+  width: 500px;
+  height: auto;
 }
 
 .hero-text p {
   font-family: "b";
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
@@ -74,9 +93,11 @@ nav ul li {
   font-size: 30px;
   font-family: "b";
 }
+/* End Text Section  */
 
+/* Truster by Section  */
 .trusted {
-  margin-top: 100px;
+  margin-top: 50px;
   padding: 0 200px;
 }
 
@@ -95,3 +116,4 @@ nav ul li {
 .trusted-logos img {
   width: 100px;
 }
+/* End Trusted By Section  */
