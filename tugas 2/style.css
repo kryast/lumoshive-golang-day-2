@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "a";
+  src: url("asset/Poppins-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "b";
+  src: url("asset/Poppins-Regular.ttf") format("truetype");
+}
+
+/* CSS Reset  */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* End CSS Reset  */
+
+/* Logo dan Navbar Section  */
+
+header {
+  /* hilangkan komen jika ingin navbar di tengah */
+  /* width: 60%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 200px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  font-family: "b";
+  color: #2e3e5c;
+  font-size: 20px;
+  padding: 0 40px;
+}
+
+/* End Logo dan Navbar Section  */
+
+/* Container Text dan Image Section  */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 200px;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+/* End Container Text dan Image Section  */
+
+/* Image section  */
+.hero-section img {
+  width: 517px;
+  height: 559px;
+  margin-top: -50px;
+}
+/* End Image Section  */
+
+/* Text Section  */
+.hero-title {
+  width: 650px;
+  height: auto;
+}
+
+.hero-section h2 {
+  font-family: "a";
+  font-size: 55px;
+  margin-bottom: 40px;
+}
+
+.hero-text {
+  width: 500px;
+  height: auto;
+}
+
+.hero-text p {
+  font-family: "b";
+  color: #2e3e5c;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero-text a {
+  display: flex;
+  height: 56px;
+  background-color: #706fe5;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: "b";
+}
+/* End Text Section  */
+
+/* Truster by Section  */
+.trusted {
+  margin-top: 50px;
+  padding: 0 200px;
+}
+
+.trusted p {
+  font-family: "a";
+  font-size: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.trusted-logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.trusted-logos img {
+  width: 100px;
+}
+/* End Trusted By Section  */
+
+/* Text Digital Product  */
+.digital-product {
+  margin-top: 100px;
+  padding: 0 200px;
+}
+
+.digital-product h2 {
+  font-family: "a";
+  font-size: 40px;
+}
+
+.digital-product p {
+  font-family: "b";
+  font-size: 20px;
+  color: #2e3e5c;
+  margin: 20px 0;
+}
+/* End Text Digital Product  */
+
+/* Box Article  */
+.article {
+  width: 1300px;
+  display: flex;
+  margin: 30px 0;
+  padding: 0 200px;
+}
+
+.article-besar {
+  width: 50%;
+}
+
+.article-besar img {
+  width: 100%;
+}
+
+.article-kecil {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 20px;
+}
+
+.article-kecil img {
+  width: 100%;
+  border-radius: 30px;
+}
+/* End Box Article  */
+
+/* Text Footer  */
+footer {
+  display: flex;
+  height: 56px;
+  color: white;
+  background-color: #706fe5;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+/* End Text Footer  */
+
+/* Font untuk semua P  */
+p {
+  font-family: "b";
+}
+/* End Font untuk Semua P  */
+
+/* Font untuk semua title  */
+h2,
+h3 {
+  font-family: "a";
+}
+/* End Font untuk semua title  */
